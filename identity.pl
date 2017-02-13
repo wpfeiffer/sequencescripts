@@ -5,8 +5,9 @@
 # 
 # blastn -query <sample>.fasta -subject <reference>.fasta -best_hit_overhang 0.1 -best_hit_score_edge 0.1 -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send' -out <sample>.vs.<reference>.out
 #
-# $min_length is the minimum length of matches to consider.
-# $min_pident is a threhold value in percent below which matches are neglected.
+# Input parameters are as follows:
+# min_length is the minimum length of matches to consider.
+# min_pident is a threhold value in percent below which matches are neglected.
 #
 use Getopt::Long;
 $min_length = 0;

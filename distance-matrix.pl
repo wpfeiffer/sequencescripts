@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# distance-matrix calculates the genetic distance matrix between samples starting from a multiple alignment in phylip format.
+# distance-matrix calculates the genetic distance matrix between sample sequences starting from the multiple sequence alignment of the samples in phylip format.
 #
 $_ = <>;
 print;
